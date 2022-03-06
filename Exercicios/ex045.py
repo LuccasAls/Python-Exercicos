@@ -6,7 +6,7 @@ print('=-'*20)
 print('Escolha o sua opção!!\n'
       '[ 0 ] Tesoura\n'
       '[ 1 ] Pedra\n'
-      '[ 2 ] Pepel')
+      '[ 2 ] Papel')
 a = int(input('Escolha: '))
 sorte = random.randint(0, 2)
 if a == 0 or a == 1 or a == 2:
