@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome Completo: ')).strip()
+print('Seu nome com letra maúiscula ', nome.upper())
+print('Seu nome com letra maúiscula ', nome.lower())
+print('Seu nome tem {} letras'.format(len(nome)-nome.count(' ')))
+var = nome.split()
+print('Seu nome {} tem {} letras'.format(var[0], len(var[0])))
